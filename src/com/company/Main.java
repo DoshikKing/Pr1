@@ -22,23 +22,12 @@ public class Main
         {
             a += mas1[i];
         }
-        for(int i = 0; i < mas1.length; i++)
-        {
-
-            a += mas1[i];
-        }
         System.out.println(a);
-
+///////////////////////////////////////////////
         //4 points nm1
-        for(int i = 0; i < mas1.length; i++)
+        for(int i = 0; i < mas2.length; i++)
         {
-
-            mas1[i] = ms.nextInt(10);
-        }
-        for(int i = 0; i < mas1.length; i++)
-        {
-            System.out.println(mas1[i]);
-            a += mas1[i];
+            mas2[i] = ms.nextInt(10);
         }
 
         for(int i = 0; i < mas2.length; i++)
